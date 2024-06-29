@@ -1,0 +1,20 @@
+#nostros {
+    align-items: center;
+    margin: 30px auto;
+    border: 1px solid #000; /* Esto añade un borde de 1px de grosor, de color negro */
+    border-radius: 10px;
+    width: 80%; 
+    padding: 20px; /* Esto añade un espacio alrededor del contenido dentro del div */
+  }
+  
+  #nostros h1{
+    margin: 30px 0;
+    align-self: center;
+  }
+  
+  #nostros h2{
+    font-size: 1.5em;
+    margin: 10px 0;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+  }

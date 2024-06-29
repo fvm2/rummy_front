@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.juego {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.info-juego {
+    width: 20%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.main-content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+    padding: 20px;
+}
+
+.tablero {
+    width: 41%;
+    background-color: #ccc;
+    display: grid;
+    grid-template-columns: repeat(6, 74px);
+    grid-template-rows: repeat(6, 74px);
+    gap: 2px;
+    padding: 10px;
+}
+
+.cartas-especiales {
+    width: 15%;
+    background-color: #555;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.cartas-especiales .carta {
+    margin: 10px 0;
+}
+
+.tienda-usuario-container {
+    width: 44%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tienda {
+    background-color: #777;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.usuario-container {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.data-joker,
+.usuario {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #999;
+    height: 100%;
+}
+
+.cartas-usuario {
+    height: 30%;
+    background-color: #bbb;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+/*
+.carta {
+    margin: 0 5px;
+}
+*/

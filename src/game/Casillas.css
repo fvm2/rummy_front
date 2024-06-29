@@ -1,0 +1,10 @@
+.casillas {
+    display: table;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.casillas-fila {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,13 @@
+.casilla {
+    width: 74px;
+    height: 74px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff5c2;
+}
+
+.casilla.selected {
+    background-color: #f0f0f0;
+}
